@@ -6,7 +6,7 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style:normal;
-  color:#4E47FF;
+ 
 }
 .raleway-font{
   font-family: "Raleway", sans-serif;
@@ -16,7 +16,7 @@
 /* share style */
 .btn{
   padding: 12px 36px;
-  border-radius: 5px;
+  border-radius:10px;
   background-color: #4E47FF;
   border: none;
   cursor: pointer;
@@ -44,6 +44,7 @@ align-items: center;
 li h3{
   font-size:34px ;
   font-weight:bold ;
+  color:#4E47FF;
 }
 
 .btn:hover{
@@ -66,4 +67,38 @@ li h3{
 }
 .hero-conten button{
   margin-top: 37px;
+}
+
+/* main part desing */
+.Action-Part{
+  margin-top: 100px;
+}
+.Action-allcontain{
+  display: flex;
+  align-items: center;
+  padding: 0px 176px;
+  justify-content: space-between;
+  border-radius: 48px;
+  gap:170px;
+  
+}
+.Action p{
+  margin-top:30px ;
+
+}
+.Action h3{
+  font-size: 42px;
+  font-weight: bold;
+  color:#252432;
+}
+.Action p{
+font-size: 24px;
+color: #252432;
+opacity: 50%;
+}
+.action {
+margin-top: 30px;
+}
+ img{
+  border-radius: 48px;
 }
