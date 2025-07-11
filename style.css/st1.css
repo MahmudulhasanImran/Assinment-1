@@ -127,13 +127,77 @@ margin-top: 30px;
   margin: 42px 140px;
 }
 /* user-number-section desing */
-.number{
-  font-size: 80px;
-  font-weight: bold;
-  color: #4E47FF;
+.user-revio{
+margin: 0px 150px;
+background-color: white;
+padding: 0px 80px;
+
 }
-.text{
-  font-size: 20px;
-  color: #000000;
-  opacity: 50%;
+.user-revio-contain{
+display: flex;
+text-align: center;
+gap: 75px;
+}
+
+.user-rvio-title{
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+}
+.user-card-contain{
+  background-color: #F2EDED;
+  max-width:350px;
+  padding: 24px;
+  text-align: left;
+  margin-top: 50px;
+  align-items: center;
+  background-image: url(../Assets/icon-star.png);
+  background-repeat: repeat-x;
+ border-radius: 24px;
+}
+
+.usr-card-subtitile{
+  font-size:24px;
+  font-weight: 600;
+  margin-top: 24px;
+  color: #1E1E1E;
+}
+.user-card-text{
+  font-size:16px;
+  margin-top: 5px;
+  color: #1E1E1E;
+}
+.card-img{
+  display: flex;
+  padding: 24px 0px;
+  gap: 10px;
+}
+.img-text{
+  color:#757575;
+}
+/* rdy to focus */
+.Rdy-to-foucs{
+  padding: 0 150px;
+  margin-top:80px ;
+  text-align: center;
+}
+
+.rdy1-raleway-font{
+  text-align: center;
+  font-size:50px ;
+}
+.Rdy-contain{
+  text-align: center;
+  
+}
+.rdy-text{
+  margin-top:20px;
+  
+}
+.rdy{
+  margin-top:20px;
+}
+.pic{
+  margin-top: 20px;
+ 
 }
